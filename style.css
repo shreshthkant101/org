@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+
+#hd {
+    width: 100%;
+    height: 130px;
+    background: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+}
+
+#hdr {
+    color: white;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 25px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.lks {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.lks:hover {
+    text-decoration: underline;
+}
+
+.imgs {
+    transition: 0.5s;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.imgs:hover {
+    opacity: 0.8;
+}
+
+.hdss {
+    margin: 15px;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+}
+
+#dvsi {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+hr {
+    background: black;
+    width: 100%;
+}
+
+#all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: #333;
+    color: wite;
+}
